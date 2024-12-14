@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('assets/fonts/Roboto-Bold.ttf') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('assets/fonts/Roboto-Regular.ttf') format('woff');
+    font-weight: 400;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(235, 18%, 26%);
+}
+
+
+
+.full-block {
+    border: 1px solid black;
+    width: 27%;
+    padding: 40px 40px 50px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 30px;
+}
+
+.fine img {
+    width: 15%;
+}
+
+.title h1 {
+    font-family: 'Roboto-Bold';
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.paragraph p {
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+}
+
+.paragraph {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto-Bold';
+    background-color: hsl(234, 29%, 20%);
+    padding: 15px 104px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    font-family: 'Roboto-Bold';
+    background-color: rgb(255, 97, 85);
+    padding: 15px 104px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+}
