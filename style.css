@@ -78,6 +78,7 @@ body {
     margin-top: 25px;
     border: none;
     transition: background-color 0.5s;
+    cursor: pointer;
 }
 
 .send:hover {
