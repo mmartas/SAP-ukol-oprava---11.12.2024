@@ -11,7 +11,6 @@
 }
 * {
     box-sizing: border-box;
-    
 }
 
 body {
@@ -20,7 +19,7 @@ body {
 
 .whole-block {
     display: flex;
-    width: 60%;
+    width: 900px;
     background: white;
     border-radius: 30px;
     padding: 20px;

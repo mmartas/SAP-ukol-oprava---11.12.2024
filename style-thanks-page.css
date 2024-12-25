@@ -21,7 +21,7 @@ body {
 
 .full-block {
     border: 1px solid black;
-    width: 27%;
+    width: 420px;
     padding: 40px 40px 50px 40px;
     position: absolute;
     top: 50%;
